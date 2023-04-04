@@ -5,23 +5,49 @@
 }
 body {
     font-family: sans-serif;
+    background-color: rgb(246, 248, 249);
 }
 /*INIZIO STILE HEADER*/
+header {
+    background-color: white;
+}
 #Container-Logo {
-    padding: 20px 30px;
+    padding: 1.5vw 2.5vw;
 }
 #Logo {
     display: inline-block;
     vertical-align: middle;
-    width: 5%;
-    margin-top: -21px;
+    width: 4.8vw;
+    margin-top: -1.1vw;
 }
 h1 {
     display: inline;
-    font-size: 50px;
+    font-size: 3vw;
 }
 /*FINE STILE HEADER*/
+#Container {
+    background-color: white;
+    width: 70vw;
+    margin: 3.5vw auto;
+    padding: 1.2vw 5vw;
+
+}
 /*INIZIO STILE NAV*/
+Button {
+    padding: 0.5vw 0.7vw;
+    border-radius: 0.5vw;
+}
+.Task {
+    color: white;
+    border: 0.1vw solid rgb(61, 168, 240);
+    background-color: rgb(71, 173, 241);
+
+}
+.Section {
+    color: rgb(200, 206, 211);
+    border: 0.1vw solid rgb(200, 206, 211);
+    background-color: white;
+}
 /*FINE STILE NAV*/
 /*INIZIO STILE MAIN*/
 /*FINE STILE MAIN*/
