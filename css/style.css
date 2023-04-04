@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/*INIZIO STILE HEADER*/
+#Container-Logo {
+    padding: 20px 30px;
+}
+#Logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5%;
+    margin-top: -21px;
+}
+h1 {
+    display: inline;
+    font-size: 50px;
+}
+/*FINE STILE HEADER*/
+/*INIZIO STILE NAV*/
+/*FINE STILE NAV*/
+/*INIZIO STILE MAIN*/
+/*FINE STILE MAIN*/
