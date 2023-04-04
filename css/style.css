@@ -39,6 +39,7 @@ nav {
 button {
     padding: 0.5vw 0.7vw;
     border-radius: 0.5vw;
+    font-size: 1vw;
 }
 .task {
     color: white;
