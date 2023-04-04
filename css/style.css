@@ -29,10 +29,13 @@ h1 {
     background-color: white;
     width: 70vw;
     margin: 3.5vw auto;
-    padding: 1.2vw 5vw;
-
+    border-radius: 1%;
 }
 /*INIZIO STILE NAV*/
+nav {
+    padding: 1.1vw 5vw;
+    border-bottom: 0.2vw solid rgb(246, 248, 249);
+}
 button {
     padding: 0.5vw 0.7vw;
     border-radius: 0.5vw;
@@ -50,6 +53,9 @@ button {
 }
 /*FINE STILE NAV*/
 /*INIZIO STILE MAIN*/
+main {
+    padding: 0vw 5vw 1.1vw;
+}
 .ul-genitore {
     margin-top: 2.5vw;
     list-style: none;
@@ -62,13 +68,49 @@ button {
     font-size: 1.3vw;
     margin-top: 0.8vw;
 }
-.icona-figlio {
+li {
+    margin: 1.5vw 0vw;
+}
+.icona {
     border-style: solid;
     border-width: 0.15vw;
-    color: rgb(107, 196, 174);
     border-radius: 50%;
     margin-right: 0.8vw;
     margin-left: 0.4vw;
     padding: 0.1vw 0.3vw;
+    font-size: 0.7vw;
+    font-weight: 800;
+}
+.positiva {
+    color: rgb(107, 196, 174);
+}
+.negativa {
+    color: rgb(231, 55, 47);
+}
+/*INIZIO STILE TAG*/
+.tag {
+    font-size: 0.8vw;
+    padding: 0.5vw 0.7vw;
+    color: white;
+    margin-left: 0.5vw;
+    border-radius: 25%;
+}
+.editorial {
+    background-color: rgb(71, 173, 241);
+}
+.q1 {
+    background-color: rgb(156, 114, 228);
+}
+.recruiting {
+    background-color: rgb(100, 192, 169);
+}
+.mobile {
+    background-color: rgb(242, 158, 51);
+}
+.website {
+    background-color: rgb(216, 99, 161);
+}
+.sales {
+    background-color: rgb(176, 201, 38);
 }
 /*FINE STILE MAIN*/
