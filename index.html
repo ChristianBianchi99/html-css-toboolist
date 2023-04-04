@@ -10,22 +10,28 @@
 <body>
     <!--INIZIO HEADER-->
     <header>
-        <div id="Container-Logo">
-            <img id="Logo" src="./img/Logo.png" alt="Logo">
+        <div id="container-logo">
+            <img id="logo" src="./img/Logo.png" alt="Logo">
             <h1>Toboolist</h1>
         </div>
     </header>
     <!--FINE HEADER-->
-    <div id="Container">
+    <div id="container">
     <!--INIZIO NAV-->
     <nav>
-        <button class="Button Task">Add Task</button>
-        <button class="Button Section">Add Section</button>
+        <button class="task">Add Task</button>
+        <button class="section">Add Section</button>
     </nav>
     <!--FINE NAV-->
     <!--INZIO MAIN-->
     <main>
-
+        <ul class="ul-genitore">
+            <li class="tasks"><span class="icona-genitore">&#9207;</span> New Task
+                <ul class="ul-figlio">
+                    <li><span class="icona-figlio">&#10003;</span>Quarterly Newsletter</li>
+                </ul>
+            </li>
+        </ul>
     </main>
     <!--FINE MAIN-->
     </div>

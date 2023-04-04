@@ -11,10 +11,10 @@ body {
 header {
     background-color: white;
 }
-#Container-Logo {
+#container-logo {
     padding: 1.5vw 2.5vw;
 }
-#Logo {
+#logo {
     display: inline-block;
     vertical-align: middle;
     width: 4.8vw;
@@ -25,7 +25,7 @@ h1 {
     font-size: 3vw;
 }
 /*FINE STILE HEADER*/
-#Container {
+#container {
     background-color: white;
     width: 70vw;
     margin: 3.5vw auto;
@@ -33,21 +33,42 @@ h1 {
 
 }
 /*INIZIO STILE NAV*/
-Button {
+button {
     padding: 0.5vw 0.7vw;
     border-radius: 0.5vw;
 }
-.Task {
+.task {
     color: white;
-    border: 0.1vw solid rgb(61, 168, 240);
+    border: 0.15vw solid rgb(61, 168, 240);
     background-color: rgb(71, 173, 241);
 
 }
-.Section {
+.section {
     color: rgb(200, 206, 211);
-    border: 0.1vw solid rgb(200, 206, 211);
+    border: 0.15vw solid rgb(200, 206, 211);
     background-color: white;
 }
 /*FINE STILE NAV*/
 /*INIZIO STILE MAIN*/
+.ul-genitore {
+    margin-top: 2.5vw;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.ul-figlio {
+    list-style: none;
+    font-weight: normal;
+    font-size: 1.3vw;
+    margin-top: 0.8vw;
+}
+.icona-figlio {
+    border-style: solid;
+    border-width: 0.15vw;
+    color: rgb(107, 196, 174);
+    border-radius: 50%;
+    margin-right: 0.8vw;
+    margin-left: 0.4vw;
+    padding: 0.1vw 0.3vw;
+}
 /*FINE STILE MAIN*/
